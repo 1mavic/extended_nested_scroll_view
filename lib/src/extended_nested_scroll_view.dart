@@ -1604,7 +1604,7 @@ class _NestedScrollPosition extends ScrollPosition
           context.vsync,
         );
       case _NestedBallisticScrollActivityMode.independent:
-        return BallisticScrollActivity(this, simulation, context.vsync);
+        return BallisticScrollActivity(this, simulation, context.vsync, true,);
     }
   }
 
