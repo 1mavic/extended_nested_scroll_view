@@ -1714,7 +1714,7 @@ class _NestedOuterBallisticScrollActivity extends BallisticScrollActivity {
     TickerProvider vsync,
   )   : assert(metrics.minRange != metrics.maxRange),
         assert(metrics.maxRange > metrics.minRange),
-        super(position, simulation, vsync);
+        super(position, simulation, vsync, true);
 
   final _NestedScrollCoordinator coordinator;
   final _NestedScrollMetrics metrics;
