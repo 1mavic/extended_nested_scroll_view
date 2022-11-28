@@ -1676,7 +1676,7 @@ class _NestedInnerBallisticScrollActivity extends BallisticScrollActivity {
     _NestedScrollPosition position,
     Simulation simulation,
     TickerProvider vsync,
-  ) : super(position, simulation, vsync);
+  ) : super(position, simulation, vsync, true);
 
   final _NestedScrollCoordinator coordinator;
 
